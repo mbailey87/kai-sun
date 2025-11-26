@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kai+Sun | Life Comes in Soda Waves</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">Kai+Sun</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="#menu">Menu</a>
+      <a href="#story">Story</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__text">
+        <p class="eyebrow">Non-alcoholic. All fun.</p>
+        <h1>Life comes in <span class="highlight">soda</span> waves.</h1>
+        <p class="subline">Specialty sodas, mixed drinks, and treats made with whole ingredients and fresh juices.</p>
+        <div class="hero__ctas">
+          <a class="button primary" href="#menu">View Menu</a>
+          <a class="button ghost" href="#visit">Get Directions</a>
+        </div>
+        <div class="hero__chips">
+          <span class="chip">Real fruit</span>
+          <span class="chip">No junk</span>
+          <span class="chip">Island inspired</span>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__badge">Fresh daily</div>
+        <div class="hero__glass">
+          <div class="glass__liquid"></div>
+          <div class="glass__fruit glass__fruit--one"></div>
+          <div class="glass__fruit glass__fruit--two"></div>
+          <div class="glass__sparkle"></div>
+        </div>
+        <div class="hero__wave"></div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="section-header">
+        <p class="eyebrow">Browse the waves</p>
+        <h2>Menu highlights</h2>
+        <div class="filters" role="group" aria-label="Menu filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="soda">Sodas</button>
+          <button class="filter" data-filter="mixed">Mixed Drinks</button>
+          <button class="filter" data-filter="juice">Fresh Juices</button>
+          <button class="filter" data-filter="snack">Treats & Snacks</button>
+          <button class="filter" data-filter="seasonal">Seasonal Waves</button>
+        </div>
+      </div>
+
+      <div class="feature-grid" aria-label="Featured Waves">
+        <article class="card" data-category="soda">
+          <div class="card__label">Bestseller</div>
+          <h3>Sunrise Splash</h3>
+          <p>Bright pineapple, lime, and sparkling coconut water.</p>
+          <div class="tag-row">
+            <span class="tag">Real pineapple</span>
+            <span class="tag">Fresh lime</span>
+            <span class="tag">Low sugar</span>
+          </div>
+          <a class="micro" href="#visit">See full details</a>
+        </article>
+
+        <article class="card" data-category="mixed">
+          <div class="card__label">Staff Pick</div>
+          <h3>Island Glow</h3>
+          <p>Guava, mango nectar, sparkling lemon, mint.</p>
+          <div class="tag-row">
+            <span class="tag">Fresh-pressed</span>
+            <span class="tag">No dyes</span>
+            <span class="tag">Caffeine-free</span>
+          </div>
+          <a class="micro" href="#visit">See full details</a>
+        </article>
+
+        <article class="card" data-category="juice">
+          <div class="card__label">Cold-Pressed</div>
+          <h3>Green Current</h3>
+          <p>Pressed cucumber, pineapple, kale, lime, and mint.</p>
+          <div class="tag-row">
+            <span class="tag">Vegan</span>
+            <span class="tag">No added sugar</span>
+            <span class="tag">Refreshing</span>
+          </div>
+          <a class="micro" href="#visit">See full details</a>
+        </article>
+
+        <article class="card" data-category="snack">
+          <div class="card__label">Treat</div>
+          <h3>Sandbar Snack Box</h3>
+          <p>Acai-style bowl with tropical fruit, coconut crumble, and chia.</p>
+          <div class="tag-row">
+            <span class="tag">Plant-forward</span>
+            <span class="tag">Gluten-friendly</span>
+            <span class="tag">Energizing</span>
+          </div>
+          <a class="micro" href="#visit">See full details</a>
+        </article>
+
+        <article class="card" data-category="seasonal">
+          <div class="card__label card__label--accent">Limited Wave</div>
+          <h3>Winter Swell</h3>
+          <p>Cranberry, yuzu, ginger fizz with rosemary sugar rim. Available through Jan 15.</p>
+          <div class="tag-row">
+            <span class="tag">Seasonal</span>
+            <span class="tag">Sparkling</span>
+            <span class="tag">House syrup</span>
+          </div>
+          <a class="micro" href="#visit">See full details</a>
+        </article>
+
+        <article class="card" data-category="mixed">
+          <div class="card__label">Staff Pick</div>
+          <h3>Sunset Cooler</h3>
+          <p>Blood orange, hibiscus tea, vanilla bean, and a hint of chili salt.</p>
+          <div class="tag-row">
+            <span class="tag">Antioxidant-rich</span>
+            <span class="tag">Low sugar</span>
+            <span class="tag">Caffeine-free</span>
+          </div>
+          <a class="micro" href="#visit">See full details</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="difference" id="story">
+      <div class="section-header">
+        <p class="eyebrow">The Kai+Sun difference</p>
+        <h2>Ingredients that actually feel good</h2>
+        <p class="lede">We keep the junk out so your treat actually feels good.</p>
+      </div>
+      <div class="icon-grid">
+        <div class="icon-card">
+          <div class="icon">🍍</div>
+          <h3>Whole, real ingredients</h3>
+          <p>Real fruit, house-made syrups, and balanced sweetness.</p>
+        </div>
+        <div class="icon-card">
+          <div class="icon">🍋</div>
+          <h3>Fresh-pressed juices</h3>
+          <p>Citrus, tropicals, and greens pressed daily for peak flavor.</p>
+        </div>
+        <div class="icon-card">
+          <div class="icon">🚫</div>
+          <h3>No artificial dyes</h3>
+          <p>Color from fruit, botanicals, and tea — nothing fake.</p>
+        </div>
+        <div class="icon-card">
+          <div class="icon">🌊</div>
+          <h3>Island-inspired flavors</h3>
+          <p>Sunrise citrus, sunset spices, and refreshing ocean-side sips.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="seasonal" aria-label="Seasonal and limited waves">
+      <div class="section-header">
+        <p class="eyebrow">Limited waves</p>
+        <h2>Seasonal & limited-time pours</h2>
+        <p class="lede">Get them before the tide rolls out. Updated weekly.</p>
+      </div>
+      <div class="seasonal__grid">
+        <article class="seasonal__card">
+          <div class="pill">Limited Wave</div>
+          <h3>Berry Trade Winds</h3>
+          <p>Marionberry, lychee, vanilla bean, sparkling citrus.</p>
+          <span class="micro">Available until February 28</span>
+        </article>
+        <article class="seasonal__card">
+          <div class="pill">Limited Wave</div>
+          <h3>Tropic Cider Fizz</h3>
+          <p>Spiced apple, pineapple foam, ginger, and lime leaf.</p>
+          <span class="micro">Available until March 10</span>
+        </article>
+        <article class="seasonal__card">
+          <div class="pill">Limited Wave</div>
+          <h3>Coconut Moon</h3>
+          <p>Toasted coconut cream, pandan syrup, sparkling cold brew.</p>
+          <span class="micro">Evenings only · After 4 pm</span>
+        </article>
+      </div>
+      <a class="button ghost" href="#menu">See all seasonal waves</a>
+    </section>
+
+    <section class="treats" id="treats">
+      <div class="treats__media" aria-hidden="true">
+        <div class="photo-placeholder">Snack spread preview</div>
+      </div>
+      <div class="treats__content">
+        <p class="eyebrow">Healthy treats & snacks</p>
+        <h2>Snacks that ride the same wave</h2>
+        <p class="lede">Fuel up with bright, refreshing bites that pair with any pour.</p>
+        <ul class="bullet-list">
+          <li><strong>Acai & pitaya bowls:</strong> tropical fruit, toasted coconut, and chia crunch.</li>
+          <li><strong>Energy bites:</strong> oat, dates, cacao nibs, and sea salt.</li>
+          <li><strong>Island toasts:</strong> papaya cream cheese, lime zest, and mint.</li>
+          <li><strong>Fresh fruit cups:</strong> pineapple, mango, and citrus medley.</li>
+        </ul>
+        <a class="button primary" href="#menu">View full treats menu</a>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit__info">
+        <p class="eyebrow">Visit us</p>
+        <h2>Location & hours</h2>
+        <div class="open-status">
+          <span class="status-dot"></span>
+          <span class="status-text">Checking hours...</span>
+        </div>
+        <p class="lede">123 Ocean Breeze Blvd, Suite 5 · Kailua</p>
+        <div class="hours">
+          <div><strong>Mon–Thu:</strong> 9:00 am – 7:00 pm</div>
+          <div><strong>Fri–Sat:</strong> 9:00 am – 8:30 pm</div>
+          <div><strong>Sun:</strong> 10:00 am – 6:00 pm</div>
+        </div>
+        <p class="micro">Parking in rear lot · Indoor/outdoor seating · Wi‑Fi friendly</p>
+        <div class="button-row">
+          <a class="button primary" href="https://maps.google.com/?q=Kai+Sun" target="_blank" rel="noreferrer">Get Directions</a>
+          <a class="button ghost" href="tel:+18085551234">Call Us</a>
+        </div>
+      </div>
+      <div class="visit__map" aria-hidden="true">
+        <div class="map-placeholder">
+          <div class="map-grid"></div>
+          <div class="map-pin">📍</div>
+          <p>Maps and directions</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="social" id="social">
+      <div class="section-header">
+        <p class="eyebrow">Social splash</p>
+        <h2>See your soda on our wall</h2>
+        <p class="lede">Tag @kaiandsun and #KaiAndSun to be featured.</p>
+      </div>
+      <div class="social__grid" aria-label="Instagram gallery">
+        <div class="social__tile" aria-hidden="true"></div>
+        <div class="social__tile" aria-hidden="true"></div>
+        <div class="social__tile" aria-hidden="true"></div>
+        <div class="social__tile" aria-hidden="true"></div>
+        <div class="social__tile" aria-hidden="true"></div>
+        <div class="social__tile" aria-hidden="true"></div>
+      </div>
+      <a class="button primary" href="https://instagram.com" target="_blank" rel="noreferrer">Follow on Instagram</a>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div>
+        <p class="eyebrow">Email / text club</p>
+        <h2>Catch the next wave first</h2>
+        <p class="lede">Get early access to new flavors, specials, and events.</p>
+      </div>
+      <form class="newsletter__form">
+        <label for="contact-input" class="sr-only">Email or phone</label>
+        <input id="contact-input" name="contact" type="text" placeholder="Email or phone" required />
+        <button class="button primary" type="submit">Join the Club</button>
+      </form>
+    </section>
+  </main>
+
+  <a class="mobile-sticky" href="#visit">Get Directions</a>
+
+  <footer class="site-footer">
+    <p>© 2024 Kai+Sun · Specialty sodas, mixed drinks, and treats made with whole ingredients and fresh juices.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
